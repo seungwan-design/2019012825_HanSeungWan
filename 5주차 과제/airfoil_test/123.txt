@@ -1,0 +1,27 @@
+ymax = 4;
+xmax = 10;
+n_inlet = 60;
+n_vertical = 90;
+r_vertical = 1/0.95;
+n_airfoil = 50;
+n_wake = 100;
+r_wake = 1/0.95;
+
+//+
+Point(129) = {-1, ymax, 0, 1.0};
+//+
+Point(130) = {-1, -ymax, 0, 1.0};
+//+
+Point(131) = {1, ymax, 0, 1.0};
+//+
+Point(132) = {1, -ymax, 0, 1.0};
+//+
+Point(133) = {xmax,-ymax, 0, 1.0};
+//+
+Point(134) = {xmax, -ymax, 0, 1.0};
+//+
+Point(134) = {xmax, 0, 0, 1.0};
+//+
+Point(135) = {xmax, 0, 0, 0};
+//+
+Point(136) = {xmax, ymax, 0, 1.0};
